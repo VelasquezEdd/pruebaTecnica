@@ -1,0 +1,40 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.main-container h1 {
+  color: #c24c1d;
+  margin-bottom: 10px;
+}
+
+.main-container p {
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button-group button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #c24c1d;
+  color: white;
+  transition: background 0.3s;
+}
+
+.button-group button:hover {
+  background-color: #b67007;
+}
